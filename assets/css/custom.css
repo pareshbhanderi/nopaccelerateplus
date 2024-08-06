@@ -44,7 +44,7 @@ header{
 .sidebar-navigation .accordion-button::before{
     position: absolute;
     content: " ";
-    background: url(/assets/images/folder-fill.svg) no-repeat left center;
+    background: url(../images/folder-fill.svg) no-repeat left center;
     display: flex;
     height: 25px;
     width: 25px;
@@ -68,7 +68,7 @@ header{
 .sidebar-navigation .list-group li::before{
     position: absolute;
     content: " ";
-    background: url(/assets/images/file-text.svg) no-repeat left center;
+    background: url(../images/file-text.svg) no-repeat left center;
     display: flex;
     height: 25px;
     width: 25px;
