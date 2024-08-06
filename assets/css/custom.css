@@ -147,10 +147,10 @@ footer{
         z-index: 999999;
     }
     .sidebar-navigation{
-        height: 100vh;
         overflow-y: auto;
         position: fixed;
         left: 0;
+        height: calc(100vh - 120px);
     }
     .sidebar-navigation + .section-content{
         margin-left: 25%;
