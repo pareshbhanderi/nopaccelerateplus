@@ -33,10 +33,10 @@ title: SOLR Setup
             </li>
           </ul>
           <div class="product-img">
-            <img src="/assets/images/solr1.jpg" alt="solr1" />
+            <img src="/nopaccelerateplus/assets/images/solr1.jpg" alt="solr1" />
           </div>
           <div class="product-img">
-            <img src="/assets/images/solr.jpg" alt="solr" />
+            <img src="/nopaccelerateplus/assets/images/solr.jpg" alt="solr" />
           </div>
         </div>
       </li>
@@ -57,7 +57,7 @@ title: SOLR Setup
             </li>
           </ul>
           <div class="product-img">
-            <img src="/assets/images/cdrive.png" alt="cdrive" />
+            <img src="/nopaccelerateplus/assets/images/cdrive.png" alt="cdrive" />
           </div>
         </div>
       </li>
