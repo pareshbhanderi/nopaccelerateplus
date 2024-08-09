@@ -20,3 +20,7 @@ function closeMenu() {
     $("body").removeClass("hidescroll");
     $(".nop-filter-overlay").remove()
 }
+
+$("#backButton").click(function() {
+    window.history.back();
+});
