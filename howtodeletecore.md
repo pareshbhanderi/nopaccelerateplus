@@ -19,7 +19,7 @@ title: How to Delete Core
           <li>
             <p>Let’s suppose we have a core named <strong>my_core</strong> in Solr, as shown below</p>
             <div class="product-img">
-              <img src="/nopaccelerateplus/assets/images/deletingcore.jpg" alt="deletingcore" />
+              <img src="{{ site.baseurl }}/assets/images/deletingcore.jpg" alt="deletingcore" />
             </div>
           </li>
         </ul>
@@ -37,7 +37,7 @@ title: How to Delete Core
             </p>
             <p>On executing the above command, the specified core will be deleted displaying the following message.</p>
             <div class="product-img">
-              <img src="/nopaccelerateplus/assets/images/delete.png" alt="delete" />
+              <img src="{{ site.baseurl }}/assets/images/delete.png" alt="delete" />
             </div>
           </li>
         </ul>
@@ -49,7 +49,7 @@ title: How to Delete Core
       </div>
       <div class="subinfo-content">
         <div class="product-img">
-          <img src="/nopaccelerateplus/assets/images/deletedd.jpg" alt="deletedd" />
+          <img src="{{ site.baseurl }}/assets/images/deletedd.jpg" alt="deletedd" />
         </div>
       </div>
     </li>
