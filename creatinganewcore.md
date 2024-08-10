@@ -17,7 +17,7 @@ title: Creating a new Core
         </div>
         <div class="subinfo-content">
           <div class="product-img">
-            <img src="/nopaccelerateplus/assets/images/create_core.jpg" alt="create_core" />
+            <img src="{{ site.baseurl }}/assets/images/create_core.jpg" alt="create_core" />
           </div>
         </div>
       </li>
@@ -34,7 +34,7 @@ title: Creating a new Core
           <li>
             <p>Here, we are trying to create a core named <strong>Solr_sample</strong> in Apache Solr. This command creates a core displaying the following message.</p>
             <div class="product-img">
-              <img src="/nopaccelerateplus/assets/images/createcore.png" alt="createcore" />
+              <img src="{{ site.baseurl }}/assets/images/createcore.png" alt="createcore" />
             </div>
           </li>
         </ul>
@@ -50,7 +50,7 @@ title: Creating a new Core
           <li>
             <p><strong>[Important Note</strong> : If your Solr is hosted on shared server then you need to  <a href="setupcoreifyoursolrishostedonsha.html" target="_blank">follow steps</a>  to make nopAccelerate Plus workable.]</p>
             <div class="product-img">
-              <img src="/nopaccelerateplus/assets/images/core_selector.jpg" alt="core_selector" />
+              <img src="{{ site.baseurl }}/assets/images/core_selector.jpg" alt="core_selector" />
             </div>
           </li>
         </ul>

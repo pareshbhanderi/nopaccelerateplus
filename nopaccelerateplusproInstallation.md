@@ -21,7 +21,7 @@ title: nopAccelerate Plus Pro Installation
       <li>
         <span>Add license keys which is provided to you through email.</span>
         <div class="product-img">
-          <img src="/nopaccelerateplus/assets/images/configurepage.png" alt="configurepage" />
+          <img src="{{ site.baseurl }}/assets/images/configurepage.png" alt="configurepage" />
         </div>
       </li>
       <li>
