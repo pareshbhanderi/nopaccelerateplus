@@ -25,19 +25,19 @@ title: How to Start/Stop/Restart SOLR ?
             <li>
               <p>select the location of bin folder of  c:/ > solr > bin</p>
               <div class="product-img">
-                <img src="/assets/images/cmd.png" alt="cmd" />
+                <img src="/nopaccelerateplus/assets/images/cmd.png" alt="cmd" />
               </div>
             </li>
             <li>
               <p>You can <strong>start</strong> Solr using command : <strong>solr start -p 8983</strong> , Once your solr is started you can move forward for <a href="creatinganewcore.html" target="_blank">Creating New Core</a> Here,  <strong>-p</strong> specifies the port number on which your solr  server will run.</p>
               <div class="product-img">
-                <img src="/assets/images/cmd2.png" alt="cmd2" />
+                <img src="/nopaccelerateplus/assets/images/cmd2.png" alt="cmd2" />
               </div>
             </li>
             <li>
               <p>You can <strong>stop</strong> Solr using command : <strong>solr stop -p 8983</strong></p>
               <div class="product-img">
-                <img src="/assets/images/stop.png" alt="stop" />
+                <img src="/nopaccelerateplus/assets/images/stop.png" alt="stop" />
               </div>
             </li>
             <li>

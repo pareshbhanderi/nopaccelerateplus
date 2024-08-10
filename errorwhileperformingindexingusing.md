@@ -46,7 +46,7 @@ title: Error while performing indexing using DataImportHandler
             <li><p><strong>SQLServerManager10.msc</strong> for [SQL Server 2008]</p></li>
           </ul>
           <div class="product-img">
-            <img src="/assets/images/sql.png" alt="sql" />
+            <img src="/nopaccelerateplus/assets/images/sql.png" alt="sql" />
           </div>
           <p><strong>[Note:</strong> If you do not find SQL Configuration Manager,  please check <a href="https://stackoverflow.com/questions/9844771/sql-server-configuration-manager-cannot-be-found" target="_blank">here</a> ]</p>
         </div>
@@ -57,7 +57,7 @@ title: Error while performing indexing using DataImportHandler
         </div>
         <div class="subinfo-content">
           <div class="product-img">
-            <img src="/assets/images/serverconfiguration.png" alt="serverconfiguration" />
+            <img src="/nopaccelerateplus/assets/images/serverconfiguration.png" alt="serverconfiguration" />
           </div>
         </div>
       </li>
@@ -67,7 +67,7 @@ title: Error while performing indexing using DataImportHandler
         </div>
         <div class="subinfo-content">
           <div class="product-img">
-            <img src="/assets/images/tcp.png" alt="tcp" />
+            <img src="/nopaccelerateplus/assets/images/tcp.png" alt="tcp" />
           </div>
         </div>
       </li>
@@ -77,7 +77,7 @@ title: Error while performing indexing using DataImportHandler
         </div>
         <div class="subinfo-content">
           <div class="product-img">
-            <img src="/assets/images/restart.png" alt="restart" />
+            <img src="/nopaccelerateplus/assets/images/restart.png" alt="restart" />
           </div>
         </div>
       </li>

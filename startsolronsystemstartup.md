@@ -36,7 +36,7 @@ title: Start Solr on System Startup
         </div>
         <div class="subinfo-content">
           <div class="product-img">
-            <img src="/assets/images/delay-windows-task-in-task-scheduler-select-c.png" alt="delay-windows-task-in-task-scheduler-select-c" />
+            <img src="/nopaccelerateplus/assets/images/delay-windows-task-in-task-scheduler-select-c.png" alt="delay-windows-task-in-task-scheduler-select-c" />
           </div>
         </div>
       </li>
@@ -46,7 +46,7 @@ title: Start Solr on System Startup
         </div>
         <div class="subinfo-content">
           <div class="product-img">
-            <img src="/assets/images/startup1.png" alt="startup1" />
+            <img src="/nopaccelerateplus/assets/images/startup1.png" alt="startup1" />
           </div>
         </div>
       </li>
@@ -56,7 +56,7 @@ title: Start Solr on System Startup
         </div>
         <div class="subinfo-content">
           <div class="product-img">
-            <img src="/assets/images/trigger1.png" alt="trigger1" />
+            <img src="/nopaccelerateplus/assets/images/trigger1.png" alt="trigger1" />
           </div>
         </div>
       </li>
@@ -71,7 +71,7 @@ title: Start Solr on System Startup
         </div>
         <div class="subinfo-content">
           <div class="product-img">
-            <img src="/assets/images/123.png" alt="123" />
+            <img src="/nopaccelerateplus/assets/images/123.png" alt="123" />
           </div>
         </div>
       </li>
@@ -81,7 +81,7 @@ title: Start Solr on System Startup
         </div>
         <div class="subinfo-content">
           <div class="product-img">
-            <img src="/assets/images/5678.png" alt="5678" />
+            <img src="/nopaccelerateplus/assets/images/5678.png" alt="5678" />
           </div>
         </div>
       </li>
@@ -91,7 +91,7 @@ title: Start Solr on System Startup
         </div>
         <div class="subinfo-content">
           <div class="product-img">
-            <img src="/assets/images/910.png" alt="910" />
+            <img src="/nopaccelerateplus/assets/images/910.png" alt="910" />
           </div>
         </div>
       </li>
@@ -101,7 +101,7 @@ title: Start Solr on System Startup
         </div>
         <div class="subinfo-content">
           <div class="product-img">
-            <img src="/assets/images/2222.png" alt="2222" />
+            <img src="/nopaccelerateplus/assets/images/2222.png" alt="2222" />
           </div>
         </div>
       </li>

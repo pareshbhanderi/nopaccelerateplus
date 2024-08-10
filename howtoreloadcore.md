@@ -19,7 +19,7 @@ title: How to Reload Core
           <li>
             <p>This can be useful when any changes have been made to your solrconfig.xml or schema.xml files.</p>
             <div class="product-img">
-              <img src="/assets/images/reload.png" alt="reload" />
+              <img src="/nopaccelerateplus/assets/images/reload.png" alt="reload" />
             </div>
           </li>
         </ul>

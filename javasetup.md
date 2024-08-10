@@ -27,7 +27,7 @@ title: JAVA Setup
             <li>
               <span>For Windows 64 bit: “C:\Program Files\Java”</span>
               <div class="product-img">
-                <img src="/assets/images/windows.png" alt="windows" />
+                <img src="/nopaccelerateplus/assets/images/windows.png" alt="windows" />
               </div>
               <p>Now its time to define the “JAVA_HOME” Environment Variable which will helps SOLR to find the JAVA location.</p>
             </li>
@@ -49,24 +49,24 @@ title: JAVA Setup
             <li>
               <p>Click the <strong>Environment Variables</strong> button.</p>
               <div class="product-img">
-                <img src="/assets/images/environmentvariable.png" alt="environment" />
+                <img src="/nopaccelerateplus/assets/images/environmentvariable.png" alt="environment" />
               </div>
             </li>
             <li>
               <p>Under <strong>System Variables</strong>, click <strong>New</strong>.</p>
               <div class="product-img">
-                <img src="/assets/images/system-variable.png" alt="system" />
+                <img src="/nopaccelerateplus/assets/images/system-variable.png" alt="system" />
               </div>
             </li>
             <li>
               <p>In the <strong>Variable Name</strong> field add JAVA_HOME and In <strong>Variable Value</strong> field add your JDK installation path C:\Program Files\Java\jre1.8.0_201</p>
               <div class="product-img">
-                <img src="/assets/images/jdkpath.png" alt="jdkpath" />
+                <img src="/nopaccelerateplus/assets/images/jdkpath.png" alt="jdkpath" />
               </div>
               <p>Click OK, you will see the newly added Variable name “JAVA_HOME” in the list as shown in below</p>
               <p>Hence, you are done with configuring Environment variable.</p>
               <div class="product-img">
-                <img src="/assets/images/javahome.png" alt="javahome" />
+                <img src="/nopaccelerateplus/assets/images/javahome.png" alt="javahome" />
               </div>
             </li>
           </ul>
