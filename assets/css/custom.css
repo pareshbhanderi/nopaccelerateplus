@@ -1,14 +1,15 @@
 /********* COMMON SECTION *********/
 body{
     font-family:var(--primary-font-family) ;
+    font-size: var(--small-fontsize);
 }
 h1, h2, h3, h4, h5, h6{
     margin-bottom: 0;
 }
 p{
-    font-size: 16px;
+    font-size: var(--small-fontsize);
     letter-spacing: var(--letter-spacing-003rem);
-    line-height: var(--line-height-28);
+    line-height: var(--line-height-25);
     margin-top: var(--margin-t15);
     margin-bottom: var(--margin-b15);
 }
@@ -136,6 +137,7 @@ ul, ol{
     --white:#ffffff;
     --blue-text:#009ee3;
     --dark-text:#363d45;
+    --black:#000000;
     --border-bottom:1px solid #dddddd;
     --box-shadow-light:0 1px 4px 0 rgba(0, 0, 0, 0.1);
     --text-uppercase:uppercase;
@@ -149,7 +151,8 @@ ul, ol{
     --mobile-heading-fontsize:28px;
     --mobile-page-title-fontsize:22px;
     --mobile-sub-heading-fontsize:18px;
-    --small-fontsize:14px;
+    --small-fontsize:15px;
+    --medium-fontsize:16px;
     --letter-spacing-003rem:0.03rem;
     --padding-0:0;
     --margin-0:0;
@@ -223,15 +226,15 @@ header .row{
 }
 .sidebar-navigation .accordion-button span{
     padding-left: 35px;
-    color: var(--dark-text);
+    color: var(--black);
+    font-weight: var(--font-weight-600);
 }
 .sidebar-navigation .list-group li a{
     display: flex;
-    color: var(--dark-text);
+    color: var(--black);
     padding-left: 35px;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
-    font-weight: var(--font-weight-600);
 }
 .sidebar-navigation .list-group li a:hover{
     color: var(--blue-text);
@@ -268,7 +271,6 @@ footer{
     z-index: 99999;
     background: var(--white);
     box-shadow: 0 -8px 16px rgba(0, 0, 0, .1);
-    padding: var(--padding-15);
 }
 footer p{
     margin:var(--margin-0) ;
@@ -373,6 +375,48 @@ h1{
     display: block;
     color: var(--white);
     padding:5px 20px;
+}
+.accordion-button::after{
+    width: 0;
+    height:0;
+}
+footer .row{
+    margin: var(--margin-0);
+}
+.services{
+    background: #F9F9F9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+}
+.services-icon{
+    background-color: var(--dark-blue);
+    border-radius: var(--border-radius-50);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.mobile-icon{
+    background-image: url(../images/mobile-development.svg);
+}
+.themes-icon{
+    background-image: url(../images/theme-development.svg);
+}
+.plugin-icon{
+    background-image: url(../images/plugin-development.svg);
+}
+.customize-icon{
+    background-image: url(../images/ai-ml.png);
+}
+.services .services-title{
+    text-align: var(--text-left);
+}
+.services a{
+    font-weight: var(--font-weight-600);
+    font-size: var(--medium-fontsize);
+    text-align: var(--text-left);
+    color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -488,6 +532,21 @@ h1{
         overflow: hidden;
         white-space: nowrap;
     }
+    .services .services-title{
+        display: none;
+    }
+    .services{
+        padding:var(--padding-0);
+    }
+    .services a{
+        padding: 5px;
+        gap: 15px;
+    }
+    .services-icon{
+        background-size: 25px;
+        width: 45px;
+        height: 45px;
+    }
 }
 @media (min-width: 576px) and (max-width: 991px) {
     .hamburger-menu{
@@ -495,6 +554,11 @@ h1{
     }
     .main-title{
         width:calc(100% - 75px);
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .services .services-title {
+        width: 75%;
     }
 }
 @media (min-width: 992px) {
@@ -510,9 +574,11 @@ h1{
         position: fixed;
         left: 0;
         height: calc(100vh - 120px);
+        width: 350px;
     }
     .sidebar-navigation + .section-content{
-        margin-left: 25%;
+        margin-left: 350px;
+        width: calc(100% - 350px);
     }
     h1{
         font-size: var(--page-title-fontsize);
@@ -530,5 +596,13 @@ h1{
     .info-badges {
         margin-bottom: var(--margin-b30);
         padding-left: 25px;
+    }
+    .services a{
+        padding: 10px 15px;
+        gap: 15px;
+    }
+    .services-icon{
+        width: 60px;
+        height: 60px;
     }
 }
